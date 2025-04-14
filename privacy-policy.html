@@ -1,14 +1,202 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Règles de confidentialité</title>
+  <meta charset="UTF-8">
+  <title>Règles de confidentialité – Chechen Latin Script</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 30px;
+    }
+    p {
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(0,0,0,0.05);
+    }
+    th, td {
+      padding: 12px 16px;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #f0f0f0;
+      text-align: left;
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #666;
+      text-align: center;
+    }
+    .lang-toggle {
+      text-align: right;
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 6px 12px;
+      border: none;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .lang-content {
+      display: none;
+    }
+    .lang-content.active {
+      display: block;
+    }
+  </style>
 </head>
 <body>
+
+  <div class="lang-toggle">
+    <button onclick="toggleLanguage('fr')">Français</button>
+    <button onclick="toggleLanguage('en')">English</button>
+  </div>
+
+  <!-- FRANÇAIS -->
+  <div id="fr" class="lang-content active">
     <h1>Règles de confidentialité</h1>
-    <p>Cette extension ne collecte, ne stocke ni ne partage aucune donnée personnelle.</p>
-    <p>Toutes les modifications du contenu des pages web se font uniquement sur l'appareil de l'utilisateur, sans transmission vers un serveur externe.</p>
-    <p>Si vous avez des questions, contactez-nous à <a href="chechenlatinscript@gmail.com"> .</a>.</p>
+    <p><strong>Extension :</strong> Chechen Latin Script<br>
+       <strong>Version :</strong> 1.0<br>
+       <strong>Dernière mise à jour :</strong> avril 2025</p>
+
+    <h2>1. Objectif unique</h2>
+    <p>L’extension <strong>Chechen Latin Script</strong> a un seul objectif :</p>
+    <p>➡️ <strong>Transcrire automatiquement le texte tchétchène en écriture cyrillique vers l’alphabet latin de 1992</strong> sur les pages web visitées par l’utilisateur.</p>
+
+    <h2>2. Données collectées</h2>
+    <p>✅ <strong>Aucune donnée personnelle n’est collectée.</strong></p>
+    <ul>
+      <li>Aucune donnée de navigation, historique ou contenu personnel n’est collectée.</li>
+      <li>Aucune information n’est transmise à des serveurs externes.</li>
+      <li>Aucun compte ni identifiant utilisateur n’est requis.</li>
+    </ul>
+
+    <h2>3. Données stockées localement</h2>
+    <p>L’extension utilise le stockage local (<code>chrome.storage</code>) uniquement pour sauvegarder certaines préférences :</p>
+    <ul>
+      <li>L’état de l’option <strong>Transcription automatique</strong>.</li>
+    </ul>
+    <p>Ces données restent <strong>locales</strong> à l’appareil et <strong>ne sont jamais partagées</strong>.</p>
+
+    <h2>4. Accès aux sites web</h2>
+    <p>L’extension demande un accès aux pages web visitées (<code>&lt;all_urls&gt;</code>) pour :</p>
+    <ul>
+      <li>Lire le texte visible contenant du tchétchène en cyrillique.</li>
+      <li>Le convertir en alphabet latin localement, sans modifier la page source.</li>
+    </ul>
+
+    <h2>5. Sécurité et respect de la vie privée</h2>
+    <ul>
+      <li>Le code est exécuté entièrement en local.</li>
+      <li>Pas de traqueurs, de publicité, ni d’analyse comportementale.</li>
+      <li>Seulement les permissions strictement nécessaires sont demandées.</li>
+    </ul>
+
+    <h2>6. Contact</h2>
+    <p>Pour toute question, veuillez contacter le développeur à :<br>
+    📧 <strong>chechenlatin[at]example.com</strong></p>
+
+    <h2>Résumé rapide</h2>
+    <table>
+      <tr><th>Élément</th><th>Politique</th></tr>
+      <tr><td>Données collectées</td><td>Aucune</td></tr>
+      <tr><td>Données stockées</td><td>Préférences locales uniquement</td></tr>
+      <tr><td>Envoi de données</td><td>Aucun</td></tr>
+      <tr><td>Publicité / Tracking</td><td>Aucun</td></tr>
+      <tr><td>Accès au contenu</td><td>Oui, pour transcription locale</td></tr>
+      <tr><td>Objectif</td><td>Transcription du texte tchétchène</td></tr>
+    </table>
+  </div>
+
+  <!-- ENGLISH -->
+  <div id="en" class="lang-content">
+    <h1>Privacy Policy</h1>
+    <p><strong>Extension:</strong> Chechen Latin Script<br>
+       <strong>Version:</strong> 1.0<br>
+       <strong>Last updated:</strong> April 2025</p>
+
+    <h2>1. Single Purpose</h2>
+    <p>The <strong>Chechen Latin Script</strong> extension has one sole purpose:</p>
+    <p>➡️ <strong>Automatically transcribe Chechen text written in Cyrillic script into the 1992 Latin alphabet</strong> on web pages visited by the user.</p>
+
+    <h2>2. Data Collection</h2>
+    <p>✅ <strong>No personal data is collected.</strong></p>
+    <ul>
+      <li>No browsing history, page content, or personal data is gathered.</li>
+      <li>No data is sent to any external server.</li>
+      <li>No account or user ID is required.</li>
+    </ul>
+
+    <h2>3. Local Storage</h2>
+    <p>The extension uses Chrome’s local storage (<code>chrome.storage</code>) only to save user preferences such as:</p>
+    <ul>
+      <li>Whether automatic transcription is enabled or not.</li>
+    </ul>
+    <p>These preferences are stored <strong>locally on the user's device</strong> and <strong>are never shared</strong>.</p>
+
+    <h2>4. Site Access</h2>
+    <p>The extension requests access to all webpages (<code>&lt;all_urls&gt;</code>) only to:</p>
+    <ul>
+      <li>Read visible text that may contain Chechen written in Cyrillic.</li>
+      <li>Convert it locally into Latin script without altering the actual page content.</li>
+    </ul>
+
+    <h2>5. Privacy & Security</h2>
+    <ul>
+      <li>The extension code runs entirely on the user's device.</li>
+      <li>No tracking, no ads, and no behavioral analysis are performed.</li>
+      <li>Only the minimal required permissions are requested.</li>
+    </ul>
+
+    <h2>6. Contact</h2>
+    <p>If you have any questions, you may contact the developer at:<br>
+    📧 <strong>chechenlatin[at]example.com</strong></p>
+
+    <h2>Quick Summary</h2>
+    <table>
+      <tr><th>Item</th><th>Policy</th></tr>
+      <tr><td>Data collected</td><td>None</td></tr>
+      <tr><td>Data stored</td><td>Local preferences only</td></tr>
+      <tr><td>Data transmission</td><td>None</td></tr>
+      <tr><td>Ads / Tracking</td><td>None</td></tr>
+      <tr><td>Page content access</td><td>Yes, for local transcription only</td></tr>
+      <tr><td>Purpose</td><td>Transcription of Chechen text</td></tr>
+    </table>
+  </div>
+
+  <script>
+    function toggleLanguage(lang) {
+      document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+      document.getElementById(lang).classList.add('active');
+    }
+  </script>
+
 </body>
 </html>
