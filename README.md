@@ -1,36 +1,42 @@
-🔒 Privacy Policy
+# Chechen Latin Script
 
-Chechen Latin Script is a browser extension with a single purpose:
-➡️ Transcribe Chechen text written in Cyrillic script into the 1992 Latin alphabet on web pages.
+**Version:** 1.0  
+**Last updated:** April 2025
 
-🧠 Data Collected
+## Description
+The **Chechen Latin Script** project is an extension that automatically transcribes Chechen text written in Cyrillic script to the 1992 Latin alphabet on web pages visited by the user. The goal is to facilitate access and reading of Chechen text in a standardized format.
 
-✅ No personal data is collected
+## Features
+- **Automatic transcription:** Converts Chechen Cyrillic text to Latin script directly in your browser.
+- **No data collection:** No personal data is collected or transmitted.
+- **Local storage:** Transcription preferences are saved locally on the user's device.
+- **Website access:** The extension reads only Chechen text in Cyrillic from visited web pages to perform the transcription without altering the page content.
 
-❌ No browsing history or page content is stored or sent
+## Installation
+1. Download the **Chechen Latin Script** extension from [this link](#) (add link if necessary).
+2. Follow the installation instructions specific to your browser (e.g., Chrome, Firefox, etc.).
+3. Enable the extension and start browsing pages containing Chechen text.
 
-❌ No user account or ID is required
+## Usage
+- The extension automatically transcribes Chechen Cyrillic text into Latin script as soon as a page with such text is visited.
+- You can enable/disable automatic transcription through the extension's settings.
 
-❌ No analytics or tracking
+## Security and Privacy
+- **No personal data is collected.**
+- The extension uses **chrome.storage** to store user preferences locally.
+- No data is sent to external servers.
 
-💾 Local Storage
-The extension uses Chrome’s storage API to locally store user preferences such as:
+## Contributing
+Contributions are welcome! If you would like to contribute to the project, please follow these steps:
+1. Fork this repository.
+2. Create a new branch for your changes (`git checkout -b feature/my-new-feature`).
+3. Commit your changes (`git commit -m 'Add a new feature'`).
+4. Push your branch (`git push origin feature/my-new-feature`).
+5. Open a Pull Request.
 
-Whether automatic transcription is enabled
+## Contact
+If you have any questions or suggestions, feel free to contact me:
+📧 **chechenlatin[at]example.com**
 
-These settings are stored locally and never leave the user's device.
-
-🌐 Site Access
-The extension requests permission to access all websites (<all_urls>) because Chechen text in Cyrillic can appear anywhere on the web (including Google, Wikipedia, etc.).
-It only processes visible text for local transcription and does not alter, track or collect data from websites.
-
-🔐 Security and Transparency
-Runs entirely locally in the browser
-
-No tracking, ads or data collection
-
-Open source and minimal permissions
-
-📄 Full bilingual privacy policy available here:
-👉 privacy.html
-
+## License
+This project is licensed under the [MIT License](LICENSE).
