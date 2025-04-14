@@ -1,13 +1,36 @@
-Règles de confidentialité
+🔒 Privacy Policy
 
-Cette extension ne collecte, ne stocke ni ne partage aucune donnée personnelle.
-Toutes les modifications du contenu des pages web se font uniquement sur l'appareil de l'utilisateur, sans transmission vers un serveur externe.
-Si vous avez des questions, contactez-nous à chechenlatinscript@gmail.com.
+Chechen Latin Script is a browser extension with a single purpose:
+➡️ Transcribe Chechen text written in Cyrillic script into the 1992 Latin alphabet on web pages.
 
-///
+🧠 Data Collected
 
-Privacy Policy
+✅ No personal data is collected
 
-This extension does not collect, store, or share any personal data.
-All modifications to web page content are performed solely on the user's device, with no transmission to an external server.
-If you have any questions, please contact us at chechenlatinscript@gmail.com.
+❌ No browsing history or page content is stored or sent
+
+❌ No user account or ID is required
+
+❌ No analytics or tracking
+
+💾 Local Storage
+The extension uses Chrome’s storage API to locally store user preferences such as:
+
+Whether automatic transcription is enabled
+
+These settings are stored locally and never leave the user's device.
+
+🌐 Site Access
+The extension requests permission to access all websites (<all_urls>) because Chechen text in Cyrillic can appear anywhere on the web (including Google, Wikipedia, etc.).
+It only processes visible text for local transcription and does not alter, track or collect data from websites.
+
+🔐 Security and Transparency
+Runs entirely locally in the browser
+
+No tracking, ads or data collection
+
+Open source and minimal permissions
+
+📄 Full bilingual privacy policy available here:
+👉 privacy.html
+
