@@ -36,7 +36,7 @@ Contributions are welcome! If you would like to contribute to the project, pleas
 
 ## Contact
 If you have any questions or suggestions, feel free to contact me:
-📧 **chechenlatin[at]example.com**
+📧 **chechenlatinscript@gmail.com**
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
