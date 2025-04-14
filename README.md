@@ -16,7 +16,7 @@ The **Chechen Latin Script** project is an extension that automatically transcri
 
 ## 🧩 Installation
 
-1. Download the **Chechen Latin Script** extension from [this link](#) *(add actual link when available)*.
+1. Download the **Chechen Latin Script** extension from [this link](#).
 2. Follow the installation instructions specific to your browser (e.g., Chrome, Firefox, etc.).
 3. Enable the extension and start browsing pages containing Chechen text.
 
