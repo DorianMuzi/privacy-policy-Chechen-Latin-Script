@@ -1,7 +1,7 @@
 # Chechen Latin Script
 
 **Version:** 1.0  
-**Last updated:** April 2025
+**Last updated:** 14 April, 2025
 
 ## Description
 The **Chechen Latin Script** project is an extension that automatically transcribes Chechen text written in Cyrillic script to the 1992 Latin alphabet on web pages visited by the user. The goal is to facilitate access and reading of Chechen text in a standardized format.
