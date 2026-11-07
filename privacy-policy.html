@@ -1,202 +1,65 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Règles de confidentialité – Chechen Latin Script</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: "Segoe UI", Tahoma, sans-serif;
-      background-color: #f5f5f5;
-      color: #333;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 40px 20px;
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-    h1 {
-      font-size: 28px;
-      margin-bottom: 10px;
-    }
-    h2 {
-      font-size: 20px;
-      margin-top: 30px;
-    }
-    p {
-      line-height: 1.6;
-      margin-bottom: 16px;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 20px;
-      background-color: #fff;
-      box-shadow: 0 0 5px rgba(0,0,0,0.05);
-    }
-    th, td {
-      padding: 12px 16px;
-      border: 1px solid #ddd;
-    }
-    th {
-      background-color: #f0f0f0;
-      text-align: left;
-    }
-    .footer {
-      margin-top: 40px;
-      font-size: 14px;
-      color: #666;
-      text-align: center;
-    }
-    .lang-toggle {
-      text-align: right;
-      margin-bottom: 20px;
-    }
-    button {
-      padding: 6px 12px;
-      border: none;
-      background-color: #4CAF50;
-      color: white;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-    .lang-content {
-      display: none;
-    }
-    .lang-content.active {
-      display: block;
-    }
-  </style>
-</head>
-<body>
+Règles de confidentialité
+Extension : Chechen Latin Script (Chrome et Firefox)
+Version : 2.0
+Dernière mise à jour : novembre 2026
 
-  <div class="lang-toggle">
-    <button onclick="toggleLanguage('fr')">Français</button>
-    <button onclick="toggleLanguage('en')">English</button>
-  </div>
+1. Objectif unique
+L’extension Chechen Latin Script, un sous-projet de LinguaCE, a un seul objectif :
 
-  <!-- FRANÇAIS -->
-  <div id="fr" class="lang-content active">
-    <h1>Règles de confidentialité</h1>
-    <p><strong>Extension :</strong> Chechen Latin Script<br>
-       <strong>Version :</strong> 1.0<br>
-       <strong>Dernière mise à jour :</strong> avril 2025</p>
+➡️ Transcrire le texte tchétchène en écriture cyrillique vers l’alphabet latin de 1992, sur les pages web visitées par l’utilisateur et dans la fenêtre de l’extension.
 
-    <h2>1. Objectif unique</h2>
-    <p>L’extension <strong>Chechen Latin Script</strong> a un seul objectif :</p>
-    <p>➡️ <strong>Transcrire automatiquement le texte tchétchène en écriture cyrillique vers l’alphabet latin de 1992</strong> sur les pages web visitées par l’utilisateur.</p>
+2. En bref
+L’extension ne collecte aucune donnée personnelle, n’a ni publicité ni traceur et n’envoie rien à un serveur.
+Tout est traité localement dans votre navigateur.
+La seule façon pour qu’une information parvienne à l’équipe du projet est le formulaire de retour facultatif (voir section 7), et seulement si vous choisissez de l’ouvrir et de l’envoyer.
+Aucun compte ni identifiant utilisateur n’est requis.
+3. Ce que l’extension lit
+Pour convertir le texte, l’extension lit le texte des pages que vous visitez et celui que vous saisissez ou sélectionnez dans l’extension. Ce texte est converti sur votre appareil. Il n’est pas conservé (hormis le brouillon décrit ci-dessous) et n’est transmis nulle part. L’extension s’exécute sur tous les sites (<all_urls>), car du tchétchène en cyrillique peut apparaître sur n’importe quel site.
 
-    <h2>2. Données collectées</h2>
-    <p>✅ <strong>Aucune donnée personnelle n’est collectée.</strong></p>
-    <ul>
-      <li>Aucune donnée de navigation, historique ou contenu personnel n’est collectée.</li>
-      <li>Aucune information n’est transmise à des serveurs externes.</li>
-      <li>Aucun compte ni identifiant utilisateur n’est requis.</li>
-    </ul>
+4. Ce qui est enregistré sur votre appareil
+Donnée	Où	Pourquoi
+Vos réglages : langue de l’interface, transcription automatique activée ou non, barre de sélection activée ou non	Stockage synchronisé du navigateur (storage.sync). Il n’est synchronisé entre vos appareils que si la synchronisation de votre navigateur est activée (Chrome Sync / Firefox Sync).	Mémoriser vos préférences
+Le brouillon saisi dans la zone de texte et le choix de l’affichage élargi	Stockage local de votre appareil (storage.local)	Ne pas perdre votre texte quand la fenêtre se ferme
+Vous pouvez effacer ces données à tout moment (vider la zone de texte, réinitialiser ou désinstaller l’extension). Elles ne sont jamais partagées.
 
-    <h2>3. Données stockées localement</h2>
-    <p>L’extension utilise le stockage local (<code>chrome.storage</code>) uniquement pour sauvegarder certaines préférences :</p>
-    <ul>
-      <li>L’état de l’option <strong>Transcription automatique</strong>.</li>
-    </ul>
-    <p>Ces données restent <strong>locales</strong> à l’appareil et <strong>ne sont jamais partagées</strong>.</p>
+5. Presse-papiers
+Quand vous cliquez sur Copier, l’extension écrit le texte converti dans votre presse-papiers. Elle ne le lit jamais.
 
-    <h2>4. Accès aux sites web</h2>
-    <p>L’extension demande un accès aux pages web visitées (<code>&lt;all_urls&gt;</code>) pour :</p>
-    <ul>
-      <li>Lire le texte visible contenant du tchétchène en cyrillique.</li>
-      <li>Le convertir en alphabet latin localement, sans modifier la page source.</li>
-    </ul>
+6. Autorisations et pourquoi
+storage : enregistrer les réglages et le brouillon décrits ci-dessus.
+contextMenus : ajouter « Translittérer la page », « Réinitialiser » et la transcription automatique au menu clic droit.
+sidePanel (Chrome) : ouvrir l’extension dans le panneau latéral quand vous cliquez sur le bouton d’agrandissement. (Firefox utilise sa propre barre latérale, sans autorisation supplémentaire.)
+Accès à tous les sites : exécuter la conversion sur les pages contenant du tchétchène. Le contenu des pages n’est traité que localement.
+7. Formulaire de retour (facultatif)
+L’extension contient un bouton « Djaxaiyta » / « Signaler » et un lien « Ġalat djaxaiyta » / « Signaler un problème ». Ils ouvrent seulement un formulaire de retour (hébergé sur Google Forms) dans un nouvel onglet. L’extension elle-même n’envoie rien.
 
-    <h2>5. Sécurité et respect de la vie privée</h2>
-    <ul>
-      <li>Le code est exécuté entièrement en local.</li>
-      <li>Pas de traqueurs, de publicité, ni d’analyse comportementale.</li>
-      <li>Seulement les permissions strictement nécessaires sont demandées.</li>
-    </ul>
+Le formulaire peut être prérempli avec le texte sélectionné, le résultat produit par l’extension et la version de l’extension, pour vous éviter de les retaper. Vous voyez tout avant de décider, et vous pouvez modifier ou effacer.
+Comme le texte prérempli fait partie de l’adresse web qui ouvre le formulaire, il parvient aux serveurs de Google au chargement de la page, comme pour tout lien que vous ouvrez. Il n’est enregistré comme retour que si vous cliquez sur « Envoyer », et vous pouvez fermer l’onglet sans rien envoyer. Par prudence, 300 caractères au maximum du texte source et du résultat sont préremplis.
+Indiquer un pseudo ou une adresse e-mail est facultatif. Une adresse e-mail n’est utilisée que pour vous répondre.
+Les retours envoyés sont reçus par l’équipe du projet via Google Forms et soumis à la politique de confidentialité de Google. Ils servent uniquement à améliorer la translittération et corriger les bugs, et ne sont ni vendus ni partagés avec des tiers.
+Vous pouvez demander la suppression de votre retour à tout moment (voir Contact).
+8. Aucun tiers
+L’extension n’utilise aucun service d’analyse, de publicité ou de suivi, et ne fait aucune requête réseau de son propre chef. Elle charge uniquement ses propres fichiers intégrés.
 
-    <h2>6. Contact</h2>
-    <p>Pour toute question, veuillez contacter le développeur à :<br>
-    📧 <strong>chechenlatinscript@gmail.com</strong></p>
+9. Enfants
+L’extension ne s’adresse pas aux enfants et ne collecte sciemment aucune information auprès de qui que ce soit.
 
-    <h2>Résumé rapide</h2>
-    <table>
-      <tr><th>Élément</th><th>Politique</th></tr>
-      <tr><td>Données collectées</td><td>Aucune</td></tr>
-      <tr><td>Données stockées</td><td>Préférences locales uniquement</td></tr>
-      <tr><td>Envoi de données</td><td>Aucun</td></tr>
-      <tr><td>Publicité / Tracking</td><td>Aucun</td></tr>
-      <tr><td>Accès au contenu</td><td>Oui, pour transcription locale</td></tr>
-      <tr><td>Objectif</td><td>Transcription du texte tchétchène</td></tr>
-    </table>
-  </div>
+10. Modifications
+Si cette politique change, la date et la version ci-dessus seront mises à jour, et les changements importants seront mentionnés dans les notes de version de l’extension.
 
-  <!-- ENGLISH -->
-  <div id="en" class="lang-content">
-    <h1>Privacy Policy</h1>
-    <p><strong>Extension:</strong> Chechen Latin Script<br>
-       <strong>Version:</strong> 1.0<br>
-       <strong>Last updated:</strong> April 2025</p>
+11. Contact
+Pour toute question, retour ou demande de suppression :
+📧 linguachechen@gmail.com
 
-    <h2>1. Single Purpose</h2>
-    <p>The <strong>Chechen Latin Script</strong> extension has one sole purpose:</p>
-    <p>➡️ <strong>Automatically transcribe Chechen text written in Cyrillic script into the 1992 Latin alphabet</strong> on web pages visited by the user.</p>
+12. Licence
+L’extension est open source sous licence Apache 2.0 (© LinguaCE).
 
-    <h2>2. Data Collection</h2>
-    <p>✅ <strong>No personal data is collected.</strong></p>
-    <ul>
-      <li>No browsing history, page content, or personal data is gathered.</li>
-      <li>No data is sent to any external server.</li>
-      <li>No account or user ID is required.</li>
-    </ul>
-
-    <h2>3. Local Storage</h2>
-    <p>The extension uses Chrome’s local storage (<code>chrome.storage</code>) only to save user preferences such as:</p>
-    <ul>
-      <li>Whether automatic transcription is enabled or not.</li>
-    </ul>
-    <p>These preferences are stored <strong>locally on the user's device</strong> and <strong>are never shared</strong>.</p>
-
-    <h2>4. Site Access</h2>
-    <p>The extension requests access to all webpages (<code>&lt;all_urls&gt;</code>) only to:</p>
-    <ul>
-      <li>Read visible text that may contain Chechen written in Cyrillic.</li>
-      <li>Convert it locally into Latin script without altering the actual page content.</li>
-    </ul>
-
-    <h2>5. Privacy & Security</h2>
-    <ul>
-      <li>The extension code runs entirely on the user's device.</li>
-      <li>No tracking, no ads, and no behavioral analysis are performed.</li>
-      <li>Only the minimal required permissions are requested.</li>
-    </ul>
-
-    <h2>6. Contact</h2>
-    <p>If you have any questions, you may contact the developer at:<br>
-    📧 <strong>chechenlatinscript@gmail.com</strong></p>
-
-    <h2>Quick Summary</h2>
-    <table>
-      <tr><th>Item</th><th>Policy</th></tr>
-      <tr><td>Data collected</td><td>None</td></tr>
-      <tr><td>Data stored</td><td>Local preferences only</td></tr>
-      <tr><td>Data transmission</td><td>None</td></tr>
-      <tr><td>Ads / Tracking</td><td>None</td></tr>
-      <tr><td>Page content access</td><td>Yes, for local transcription only</td></tr>
-      <tr><td>Purpose</td><td>Transcription of Chechen text</td></tr>
-    </table>
-  </div>
-
-  <script>
-    function toggleLanguage(lang) {
-      document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
-      document.getElementById(lang).classList.add('active');
-    }
-  </script>
-
-</body>
-</html>
+Résumé rapide
+Élément	Politique
+Données collectées	Aucune
+Données stockées	Réglages et brouillon, sur votre appareil uniquement
+Envoi de données par l’extension	Aucun
+Formulaire de retour	Facultatif, ouvert par vous, envoyé par vous (Google Forms)
+Publicité / Suivi	Aucun
+Accès au contenu des pages	Oui, pour la transcription locale uniquement
+Objectif	Transcription du texte tchétchène
